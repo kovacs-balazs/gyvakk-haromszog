@@ -1,5 +1,5 @@
 import tkinter as tk
-from triangle import *
+import triangle
 
 # A text inputbox default szövegének kivétele
 def on_entry_click(event, text):
@@ -20,7 +20,7 @@ def on_focusout(event):
         event.widget.focus()
 
 
-def calculate():
+def calculate() -> int:
     try:
         a: float = float(entry_a.get().strip())
         b: float = float(entry_b.get().strip())
@@ -32,12 +32,12 @@ def calculate():
         print("A beadott érték nullánál nagyobb kell legyen!")
         return 0
 
-    triangle: Triangle = Triangle(a, b)
-    print(f"a: {a}\nb: {b}\nKerület: {triangle.get_kerulet_rounded()}")
+    triangle_: triangle.Triangle = triangle.Triangle(a, b)
+    print(f"a: {a}\nb: {b}\nKerület: {triangle_.get_kerulet_rounded()}")
 
-    add(triangle)
+    triangle.add(triangle_)
     reset_input_boxes()
-    return 0
+    return triangle_.get_kerulet_rounded()
 
 # Felvétel utáni default szöveg visszarakása
 def reset_input_boxes():
@@ -56,7 +56,7 @@ def gui_open():
 
 # Kerulet dictionary kiírása value alapján csökkenőbe rendezve
 def print_keruletek():
-    print(get_keruletek_sorted())
+    print(triangle.get_keruletek_sorted())
 
 window = tk.Tk()
 
