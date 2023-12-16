@@ -40,4 +40,4 @@ class Triangle:
         return round(self.a + self.b + self.get_atfogo(), 0 if round_tizedesjegy < 0 else round_tizedesjegy)
 
     def is_pitagoraszi_szamharmas(self):
-        return self.calculate() % 1 == 0
+        return self.get_atfogo() % 1 == 0
