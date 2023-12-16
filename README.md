@@ -11,7 +11,7 @@ python main.py
 ```
 </br>
 A szoftver elindítása után a megnyíló grafikus felületben kell megadni a két befogó hosszúságát. A bemeneti szövegekhez csak számok írhatóak. A "Felvétel" gombra kattintva felveszi a szótárba a háromszög kerületét. A "Listázás" gombra kattintva kiírja a háromszögek kerületeinek szótárát.
-
+---
 ### Konzol
 #### Indítóparancs:
 ```
@@ -26,7 +26,7 @@ A szoftver elindítása után először meg kell adni az 'a' befogó, majd a 'b'
 | :-------: | :-------: |
 | `exit` | Program megállítása |
 | `list` | Felvett kerületek kilistázása |
-
+---
 ### Beállítások
 
   Az indítóparancs utáni argumentumok segítségével egyszerűen konfigurálhatóak a szoftver beállításai. Több argumentum is megadható egyszerre az indítóparancsban. A kerekítés kikapcsolása felülírja a kerekítési értéket, így nem ajánlott egyszerre mindkét argumentum használata.
