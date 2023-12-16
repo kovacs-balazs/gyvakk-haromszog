@@ -1,10 +1,9 @@
 # Háromszög kerület kalkulátor
----
+
 A szoftver a felhasználó által megadott [derékszögű háromszögek](https://hu.wikipedia.org/wiki/Der%C3%A9ksz%C3%B6g%C5%B1_h%C3%A1romsz%C3%B6g) két befogójának hosszából kiszámolja az átfogót, a [Pitagorasz-tétel](https://hu.wikipedia.org/wiki/Pitagorasz-t%C3%A9tel) alkalmazásával. A kapott eredménnyel tovább számolva a háromszög kerületét egy szótárban tárolja három tizedesjegyre kerekítve. A kalkulátor mértékegység független, és támogatja mind a grafikus, mind a konzolos bemeneteket. Az összegyűjtött kerületeket kiíratáskor mindig a gyakoriság szerint csökkenő sorrendben írja ki.
 
 ## Használat
 
----
 ### Grafikus Felhasználói Felület
 #### Indítóparancs:
 ```
