@@ -29,7 +29,7 @@ A szoftver elindítása után először meg kell adni az 'a' befogó, majd a 'b'
 
 ## Beállítások
 
-Az indítóparancs utáni argumentumok segítségével egyszerűen konfigurálhatóak a szoftver beállításai. Több argumentum is megadható egyszerre az indítóparancsban. A kerekítés kikapcsolása felülírja a kerekítési értéket, így nem ajánlott egyszerre mindkét argumentum használata.
+Az indítóparancs utáni argumentumok segítségével egyszerűen konfigurálhatóak a szoftver beállításai. Több argumentum is megadható egyszerre az indítóparancsban. Az argumentumok sorrendje felcserélhető. A kerekítés kikapcsolása felülírja a kerekítési értéket, így nem ajánlott egyszerre mindkét argumentum használata.
 
 | Argumentum | Beállítás | Példa |
 | :---: | :---: | :---: |
