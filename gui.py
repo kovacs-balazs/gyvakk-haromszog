@@ -20,7 +20,7 @@ def on_focusout(event):
         event.widget.focus()
 
 
-def calculate() -> int:
+def calculate() -> float:
     try:
         a: float = float(entry_a.get().strip())
         b: float = float(entry_b.get().strip())
