@@ -11,6 +11,7 @@ python main.py
 ```
 </br>
 A szoftver elindítása után a megnyíló grafikus felületben kell megadni a két befogó hosszúságát. A bemeneti szövegekhez csak számok írhatóak. A "Felvétel" gombra kattintva felveszi a szótárba a háromszög kerületét. A "Listázás" gombra kattintva kiírja a háromszögek kerületeinek szótárát.
+
 ---
 ### Konzol
 #### Indítóparancs:
